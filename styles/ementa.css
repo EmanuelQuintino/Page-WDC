@@ -41,13 +41,13 @@
 }
 
 #iconSql {
-    height: 11.0rem;
+    height: 6.4rem;
     width: auto;
 }
 
 .sqlName {
     position: relative;
-    top: -2.4rem;
+    /* top: -.1rem; */
 }
 
 .gitName {
