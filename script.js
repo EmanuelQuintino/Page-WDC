@@ -32,7 +32,7 @@ window.addEventListener("scroll", () => {
     containerContacts.classList.add("downTopAnimation");
   }
 
-  if (window.scrollY > 1220) {
+  if (window.scrollY > 1300) {
     const footerLogo = document.querySelectorAll("footer h3, .logoContainer img");
     footerLogo.forEach((value) => {
       value.classList.add("pulsarAnimation");
