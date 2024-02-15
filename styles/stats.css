@@ -1,0 +1,30 @@
+.stats h2 {
+  text-align: center;
+  margin-top: 4.2rem;
+}
+
+.stats .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3.2rem;
+}
+
+.cardStats {
+  background: #fff2;
+  border-radius: 100%;
+  width: 25%;
+  height: auto;
+  padding: 2.8rem;
+  text-align: center;
+}
+
+.cardStats strong {
+  display: block;
+  font-size: 2.4rem;
+}
+
+.cardStats span {
+  color: #fffd;
+  font-size: 1.4rem;
+}

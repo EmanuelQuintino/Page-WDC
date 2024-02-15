@@ -22,6 +22,13 @@ window.addEventListener("scroll", () => {
     instructorPerfil.classList.add("opacityAnimation");
   }
 
+  if (window.scrollY > 850) {
+    const statsCourse = document.querySelectorAll(".stats h2, .cardStats");
+    statsCourse.forEach((value) => {
+      value.classList.add("pulsarAnimation");
+    });
+  }
+
   if (window.scrollY > 1120) {
     const education = document.querySelector(".education");
     education.classList.add("downTopAnimation");
